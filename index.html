@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academlo Shop</title>
+  <link rel="shortcut icon" href="assets/img/academlo.png" type="image/x-icon">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- JS -->
+  <script src="assets/js/main.js" type="module" defer></script>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader__container">
+      <span></span>
+    </div>
+  </div>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="/" class="nav__logo">
+        <svg  viewBox="-50 -18 200 150" class="logo--icon">        
+          <path d="M36.54 70.14 c-14.46 7.02 -30.54 14.58 -33.66 14.58 c-2.7 0 -3.12 -1.86 -2.7 -4.62 c0.66 -4.62 6.24 -22.62 10.62 
+          -39 c4.26 -15.78 6 -16.02 6.78 -16.14 c0.66 -0.06 1.02 -0.24 1.56 -0.54 c0.6 -0.36 0.24 1.2 -0.96 2.04 c-0.96 0.66 -1.62
+          1.8 -3.18 6.24 c-1.8 4.92 -3.06 8.22 -4.92 15.06 c-2.7 9.9 -7.38 27.06 -7.86 30.66 c-0.3 2.22 -0.3 4.38 0.9 4.38 s3.3 
+          -0.42 13.92 -4.92 c10.68 -4.44 18.6 -8.46 19.86 -8.94 c0.3 -0.06 1.38 0.36 -0.36 1.2 z">
+
+          </path> 
+        </svg>    
+      </a>
+      <div class="nav__menu">
+        <button type="button" class="nav__btn btn--close">
+          <i class='bx bx-x'></i>
+        </button>
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="#" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">Productos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__buttons">
+        <button type="button" class="nav__btn btn--cart">
+          <i class='bx bx-shopping-bag'></i>
+          <span class="notify">0</span>
+        </button>
+        <button type="button" class="nav__btn btn--menu">
+          <i class='bx bx-grid-alt'></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main class="main">
+    <section class="products section">
+      <h2 class="products__title section--title">Productos</h2>
+      <div class="products__container container"></div>
+    </section>
+  </main>
+
+  <!-- Cart -->
+  <div class="cart">
+    <div class="cart__container">
+      <div class="cart__header">
+        <h3 class="cart__title">Carrito de Compras</h3>
+        <button type="button" class="cart__btn btn--close">
+          <i class='bx bx-x'></i>
+        </button>
+      </div>
+      <div class="cart__body"></div>
+      <div class="cart__footer">
+        <div class="cart__count">
+          <span class="cart__count--text">Articulos</span>
+          <span class="cart__count--item">0</span>
+        </div>
+        <div class="cart__total">
+          <span class="cart__count--text">Total</span>
+          <span class="cart__total--item">$0</span>
+        </div>
+        <button type="button" class="cart__btn btn--buy">
+          Comprar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer section">
+    <div class="footer__container container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <h3 class="footer__title">Sobre Nosotros</h3>
+          <p class="footer__text">Una descripción breve del equipo, así como sus nombres completos, si trabajas solo también describe algo sobre ti</p>
+        </div>
+        <div class="footer__right">
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__social">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                <i class='bx bxl-github'></i>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                <i class='bx bxl-instagram'></i>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__text">Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
