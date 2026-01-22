@@ -95,6 +95,33 @@
     </div>
   </div>
 
+  <!-- Product Modal -->
+  <div class="modal" id="productModal">
+    <div class="modal__overlay"></div>
+    <div class="modal__container">
+      <button type="button" class="modal__close">
+        <i class='bx bx-x'></i>
+      </button>
+      <div class="modal__content">
+        <div class="modal__image">
+          <img src="" alt="" id="modalImage">
+        </div>
+        <div class="modal__info">
+          <h2 class="modal__title" id="modalTitle"></h2>
+          <p class="modal__price" id="modalPrice"></p>
+          <p class="modal__stock" id="modalStock"></p>
+          <p class="modal__description" id="modalDescription"></p>
+          <div class="modal__actions">
+            <button type="button" class="modal__btn modal__btn--cart" id="modalAddToCart">
+              <i class='bx bx-cart-add'></i>
+              <span>Agregar al Carrito</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="footer section">
     <div class="footer__container container">
